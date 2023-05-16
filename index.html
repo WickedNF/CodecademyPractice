@@ -1,12 +1,368 @@
 <!DOCTYPE html>
 <head>
-    <title>
+  <style>
+    * {
+      border: 1px red solid;
+    }
+  </style>  
+  <title>
         Eddie's HTML & CSS Cheatsheet
     </title>
 </head>
 <html>
-<header>
+  <header>
     Eddie's Frontend Development Cheatsheet
-</header>
-
+  </header>
+  <nav>
+    <h1><span id="webDevHead"> Web Dev </span> | <span id="htmlHead"> HTML </span> | <span id="cssHead"> CSS </span></h1>
+  </nav>
+  <!--Web Dev subnav-->
+  <nav class="webDevSubNav subnav">
+    <ul>
+        <li id="helpful-resources">Helpful Resources</li>
+        <li id="books">Books</li>
+        <li id="deploying-websites">Deploying Websites</li>
+        <li id="command-line">Command Line</li>
+    </ul>
+  </nav>
+  <!--HTML subnav-->
+  <nav class="htmlSubNav subnav">
+    <ul>
+        <li id="html-tags">HTML Tags</li>
+        <li id="html-elements">HTML Elements</li>
+        <li id="html-structure">HTML Structure</li>
+        <li id="html-tables">HTML Tables</li>
+        <li id="symantec-html">Symantec HTML</li>
+        <li id="debugging-html">Debugging HTML</li>
+    </ul>
+  </nav>
+<!--CSS subnav-->
+<nav class="cssSubNav subnav">
+    <ul>
+        <li id="css-basics">CSS Basics</li>
+        <li id="css-selectors">CSS Selectors</li>
+        <li id="css-visual-rules">CSS Visual Rules</li>
+        <li id="css-box-model">CSS Box Model</li>
+        <li id="css-display-positioning">CSS Display & Positioning</li>
+        <li id="css-typography">CSS Typography</li>
+    </ul>
+  </nav>
+  <main>
+    <!--  -->
+    <!-- START OF WEB DEVELOPMENT NOTES -->
+    <!--  -->
+    <section class="webDevSection">
+      <h1>Web Development</h1>
+          <!-- <br>
+        <table>
+          <tr>
+              <th colspan="2">Note Title</th>
+              <td></td>
+          </tr>
+          <tr>
+              <th>Tag</th>
+              <td>test</td>
+          </tr>
+          <tr>
+              <th>Rules</th>
+              <td>test</td>
+          </tr>
+          <tr>
+              <th>Syntax</th>
+              <td>test</td>
+          </tr>
+          <tr>
+              <th>Notes</th>
+              <td>test</td>
+          </tr>
+        </table> -->
+        <h3 id="helpful-resources">Helpful Resources</h3>
+        <table>
+          <tr>
+              <th colspan="2">Popular Developer Resources</th>
+              <td></td>
+          </tr>
+          <tr>
+              <th>Tag</th>
+              <td>test</td>
+          </tr>
+          <tr>
+              <th>Rules</th>
+              <td>test</td>
+          </tr>
+          <tr>
+              <th>Syntax</th>
+              <td>test</td>
+          </tr>
+          <tr>
+              <th>Notes</th>
+              <td>test</td>
+          </tr>
+        </table>
+      <br>
+        <table>
+          <tr>
+              <th colspan="2">Books</th>
+              <td></td>
+          </tr>
+          <tr>
+              <th>Tag</th>
+              <td>test</td>
+          </tr>
+          <tr>
+              <th>Rules</th>
+              <td>test</td>
+          </tr>
+          <tr>
+              <th>Syntax</th>
+              <td>test</td>
+          </tr>
+          <tr>
+              <th>Notes</th>
+              <td>test</td>
+          </tr>
+        </table>
+        <br>
+        <table>
+          <tr>
+              <th colspan="2">Deploying Websites</th>
+              <td></td>
+          </tr>
+          <tr>
+              <th>Tag</th>
+              <td>test</td>
+          </tr>
+          <tr>
+              <th>Rules</th>
+              <td>test</td>
+          </tr>
+          <tr>
+              <th>Syntax</th>
+              <td>test</td>
+          </tr>
+          <tr>
+              <th>Notes</th>
+              <td>test</td>
+          </tr>
+        </table>
+        <br>
+        <table>
+          <tr>
+              <th colspan="2">Command Line</th>
+              <td></td>
+          </tr>
+          <tr>
+              <th>Tag</th>
+              <td>test</td>
+          </tr>
+          <tr>
+              <th>Rules</th>
+              <td>test</td>
+          </tr>
+          <tr>
+              <th>Syntax</th>
+              <td>test</td>
+          </tr>
+          <tr>
+              <th>Notes</th>
+              <td>test</td>
+          </tr>
+        </table> 
+  </section>
+  <!--  -->
+  <!-- START OF HTML NOTES -->
+  <!--  -->
+  <section class="htmlSection">
+    <h1>HTML</h1>
+    <h3>HTML Tags</h3>  
+    <table>
+        <tr>
+            <th colspan="2">NoteTitle</th>
+            <td></td>
+        </tr>
+        <tr>
+            <th>Tag</th>
+            <td>test</td>
+        </tr>
+        <tr>
+            <th>Rules</th>
+            <td>test</td>
+        </tr>
+        <tr>
+            <th>Syntax</th>
+            <td>test</td>
+        </tr>
+        <tr>
+            <th>Notes</th>
+            <td>test</td>
+        </tr>
+      </table>
+    <br>
+      <table>
+        <tr>
+            <th colspan="2">NoteTitle</th>
+            <td></td>
+        </tr>
+        <tr>
+            <th>Tag</th>
+            <td>test</td>
+        </tr>
+        <tr>
+            <th>Rules</th>
+            <td>test</td>
+        </tr>
+        <tr>
+            <th>Syntax</th>
+            <td>test</td>
+        </tr>
+        <tr>
+            <th>Notes</th>
+            <td>test</td>
+        </tr>
+      </table>
+      <br>
+      <table>
+        <tr>
+            <th colspan="2">NoteTitle</th>
+            <td></td>
+        </tr>
+        <tr>
+            <th>Tag</th>
+            <td>test</td>
+        </tr>
+        <tr>
+            <th>Rules</th>
+            <td>test</td>
+        </tr>
+        <tr>
+            <th>Syntax</th>
+            <td>test</td>
+        </tr>
+        <tr>
+            <th>Notes</th>
+            <td>test</td>
+        </tr>
+      </table>
+      <br>
+      <table>
+        <tr>
+            <th colspan="2">NoteTitle</th>
+            <td></td>
+        </tr>
+        <tr>
+            <th>Tag</th>
+            <td>test</td>
+        </tr>
+        <tr>
+            <th>Rules</th>
+            <td>test</td>
+        </tr>
+        <tr>
+            <th>Syntax</th>
+            <td>test</td>
+        </tr>
+        <tr>
+            <th>Notes</th>
+            <td>test</td>
+        </tr>
+      </table> 
+</section>
+<!--  -->
+<!-- START OF CSS NOTES -->
+<!--  -->
+<section class="cssSection">
+  <h1>CSS</h1>
+    <table>
+      <tr>
+          <th colspan="2">NoteTitle</th>
+          <td></td>
+      </tr>
+      <tr>
+          <th>Tag</th>
+          <td>test</td>
+      </tr>
+      <tr>
+          <th>Rules</th>
+          <td>test</td>
+      </tr>
+      <tr>
+          <th>Syntax</th>
+          <td>test</td>
+      </tr>
+      <tr>
+          <th>Notes</th>
+          <td>test</td>
+      </tr>
+    </table>
+  <br>
+    <table>
+      <tr>
+          <th colspan="2">NoteTitle</th>
+          <td></td>
+      </tr>
+      <tr>
+          <th>Tag</th>
+          <td>test</td>
+      </tr>
+      <tr>
+          <th>Rules</th>
+          <td>test</td>
+      </tr>
+      <tr>
+          <th>Syntax</th>
+          <td>test</td>
+      </tr>
+      <tr>
+          <th>Notes</th>
+          <td>test</td>
+      </tr>
+    </table>
+    <br>
+    <table>
+      <tr>
+          <th colspan="2">NoteTitle</th>
+          <td></td>
+      </tr>
+      <tr>
+          <th>Tag</th>
+          <td>test</td>
+      </tr>
+      <tr>
+          <th>Rules</th>
+          <td>test</td>
+      </tr>
+      <tr>
+          <th>Syntax</th>
+          <td>test</td>
+      </tr>
+      <tr>
+          <th>Notes</th>
+          <td>test</td>
+      </tr>
+    </table>
+    <br>
+    <table>
+      <tr>
+          <th colspan="2">NoteTitle</th>
+          <td></td>
+      </tr>
+      <tr>
+          <th>Tag</th>
+          <td>test</td>
+      </tr>
+      <tr>
+          <th>Rules</th>
+          <td>test</td>
+      </tr>
+      <tr>
+          <th>Syntax</th>
+          <td>test</td>
+      </tr>
+      <tr>
+          <th>Notes</th>
+          <td>test</td>
+      </tr>
+    </table> 
+</section>
+  </main>
 </html>
