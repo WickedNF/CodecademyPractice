@@ -16,17 +16,17 @@
   <nav>
     <h1><span id="webDevHead"> Web Dev </span> | <span id="htmlHead"> HTML </span> | <span id="cssHead"> CSS </span></h1>
   </nav>
-  <!--Web Dev subnav-->
-  <nav class="webDevSubNav subnav">
+<!--Web Dev subnav-->
+<nav class="webDevSubNav subnav">
     <ul>
-        <li id="helpful-resources">Helpful Resources</li>
-        <li id="books">Books</li>
+        <li id="popular-developer-resources">Popular Developer Resources</li>
+        <li id="recommended-books">Recommended Books</li>
         <li id="deploying-websites">Deploying Websites</li>
         <li id="command-line">Command Line</li>
     </ul>
-  </nav>
-  <!--HTML subnav-->
-  <nav class="htmlSubNav subnav">
+</nav>
+<!--HTML subnav-->
+<nav class="htmlSubNav subnav">
     <ul>
         <li id="html-tags">HTML Tags</li>
         <li id="html-elements">HTML Elements</li>
@@ -35,7 +35,7 @@
         <li id="symantec-html">Symantec HTML</li>
         <li id="debugging-html">Debugging HTML</li>
     </ul>
-  </nav>
+</nav>
 <!--CSS subnav-->
 <nav class="cssSubNav subnav">
     <ul>
@@ -46,18 +46,16 @@
         <li id="css-display-positioning">CSS Display & Positioning</li>
         <li id="css-typography">CSS Typography</li>
     </ul>
-  </nav>
+</nav>
   <main>
     <!--  -->
-    <!-- START OF WEB DEVELOPMENT NOTES -->
     <!--  -->
-    <section class="webDevSection">
-      <h1>Web Development</h1>
-          <!-- <br>
+    <!--  -->
+<!-- NOTE TEMPLATE -->
+     <!-- <br>
         <table>
           <tr>
               <th colspan="2">Note Title</th>
-              <td></td>
           </tr>
           <tr>
               <th>Tag</th>
@@ -76,109 +74,277 @@
               <td>test</td>
           </tr>
         </table> -->
-        <h3 id="helpful-resources">Helpful Resources</h3>
+
+    <section class="webDevSection"> <!-- START OF WEB DEVELOPMENT NOTES -->
+      <h1>Web Development</h1>
         <table>
           <tr>
               <th colspan="2">Popular Developer Resources</th>
-              <td></td>
           </tr>
           <tr>
-              <th>Tag</th>
-              <td>test</td>
+              <td class="notes"colspan="2" >As you go through the path, we’ll suggest certain resources for you to
+                 use, like articles, videos, tutorials, and documentation. Here are some additional 
+                 resources that are considered groundbreaking, significant, or classics in the industry
+                  and will help you throughout your path:</td>
           </tr>
           <tr>
-              <th>Rules</th>
-              <td>test</td>
-          </tr>
-          <tr>
-              <th>Syntax</th>
-              <td>test</td>
-          </tr>
-          <tr>
-              <th>Notes</th>
-              <td>test</td>
+              <td class="notes" colspan="2">
+                <ul>
+                    <li><a href="https://developer.mozilla.org/en-US/"> MDN Web Docs </a></li>
+                    <li><a href="https://www.w3.org/TR/CSS2/selector.html"> W3 </a></li>
+                    <li><a href="https://css-tricks.com/"> CSS-Tricks </a></li>
+                    <li><a href="https://dev.to/"> DEV Community </a></li>
+                    <li><a href="https://stackoverflow.com/"> Stack Overflow </a></li>
+                    <li><a href="https://caniuse.com/"> Can I use </a></li>
+                    <li><a href="https://www.codecademy.com/workspaces/new"> Codecademy Workspaces </a></li>
+               </ul>
+              </td>
           </tr>
         </table>
       <br>
         <table>
           <tr>
-              <th colspan="2">Books</th>
-              <td></td>
+              <th colspan="2">Recommended Books</th>
           </tr>
           <tr>
-              <th>Tag</th>
-              <td>test</td>
+              <td class="notes" colspan="2">Sometimes it’s useful to have a couple of books on hand. The books featured 
+                in the Codecademy Frontend Developer Career Path are considered classics in the industry 
+                and many Codecademy learners (and employees!) have found them useful:
+            </td>
           </tr>
           <tr>
-              <th>Rules</th>
-              <td>test</td>
-          </tr>
-          <tr>
-              <th>Syntax</th>
-              <td>test</td>
-          </tr>
-          <tr>
-              <th>Notes</th>
-              <td>test</td>
+              <td class="notes">
+                <ul>
+                    <li><a href="https://bookshop.org/books/html-and-css-design-and-build-websites/9781118008188">HTML & CSS, Jon Duckett</a>;<br> Review fundamentals of HTML, Chapters 1-5 (pp.12-124)</li>
+                    <li><a href="https://eloquentjavascript.net/">Eloquent JavaScript</a> -a free eBook!</li>
+                    <li><a href="https://bookshop.org/books/cracking-the-coding-interview-189-programming-questions-and-solutions/9780984782857">Cracking the Coding Interview (6th Edition), Gayle Laakamann McDowell</a></li>
+                </ul>
+              </td>
           </tr>
         </table>
         <br>
         <table>
           <tr>
               <th colspan="2">Deploying Websites</th>
-              <td></td>
           </tr>
           <tr>
-              <th>Tag</th>
-              <td>test</td>
+              <th>Different web hosting tools</th>
+              <td class="notes">
+              <ul>
+                <li>GitHub Pages -- Free <br>
+                    Good for static applications</li>
+                <li>Heroku -- PaaS (platform as a service) <br>
+                    Good for more complex full-stack apps</li>
+                <li>DigitalOcean -- Cloud provider<br>
+                    Full control over cloud resources</li>
+              </ul>
+            </td>
           </tr>
           <tr>
-              <th>Rules</th>
-              <td>test</td>
+              <th>GitHub Pages</th>
+              <td class="notes"><a href="https://pages.github.com/">GitHub pages</a>, a tool provided by GitHub, lets 
+                you easily create and deploy a website online. GitHub allows you to store all the files 
+                and code for your website in a repository. You can then use GitHub Pages to generate a 
+                personal URL and share your site.
+             </td>
+          </tr>
+        </table>
+        <br>
+        <h3>Command Line</h3>
+        <table>
+          <tr>
+              <th colspan="2">Filesystem</th>
           </tr>
           <tr>
-              <th>Syntax</th>
-              <td>test</td>
+              <td class="notes">A filesystem organizes a computer's files and directories into a tree structure.
+                <ol>
+                    <li>The first directory in the filesystem is the root directory. It's the parent of 
+                        all other directories and files in the filesystem.
+                    </li>
+                    <li>Each parent directory can contain more child directories and files. In the
+                         filesystem on the right, blog/ is the parent of 2014/, 2015/, and hardward.txt
+                    </li>
+                    <li>Each directory can contain more files and child directories. The parent-child 
+                        relationship continues as long as directories and files are nested.
+                    </li>
+                </ol>
+                
+            </td>
           </tr>
           <tr>
-              <th>Notes</th>
-              <td>test</td>
+              <td colspan="2"><img src="./css/resources/filesystem_tree_visual.png"></td>
           </tr>
         </table>
         <br>
         <table>
           <tr>
-              <th colspan="2">Command Line</th>
-              <td></td>
+              <th colspan="2">Lists</th>
           </tr>
           <tr>
-              <th>Tag</th>
-              <td>test</td>
+              <th class="tag">Command</th>
+              <td><em><strong>ls</strong></em></td>
           </tr>
           <tr>
-              <th>Rules</th>
-              <td>test</td>
+              <th class="notes">Notes</th>
+              <td>When you type <em>ls</em>, the command line looks at the directory you are in, and then "lists"
+                 all the files and directories inside of it.<br>
+                 <br> 
+                In terminal, the first thing you see is <em>$</em> -- This is called a <em>shell prompt</em>. It appears 
+                when the terminal is ready to accept a command.
+                </td>
+          </tr>
+        </table>
+        <br>
+        <table>
+          <tr>
+              <th colspan="2">Print Working Directory</th>
           </tr>
           <tr>
-              <th>Syntax</th>
-              <td>test</td>
+              <th class="tag">Command</th>
+              <td><em><strong>pwd</strong></em></td>
           </tr>
           <tr>
-              <th>Notes</th>
-              <td>test</td>
+              <th class="notes">Notes</th>
+              <td><em>pwd</em> stands for "print working directory". It outputs the name of the directory you are 
+                currently in, called the <em>working directory</em>.<br>
+
+                Together with <em>ls</em>, the <em>pwd</em> command is useful to show where you are in the filesystem.
+                
+                </td>
           </tr>
-        </table> 
-  </section>
+        </table>
+        <br>
+        <table>
+          <tr>
+              <th colspan="2">Change Directory I</th>
+          </tr>
+          <tr>
+              <th class="tag">Command</th>
+              <td><em><strong>pwd</strong></em></td>
+          </tr>
+          <tr>
+              <th class="notes">Notes</th>
+              <td><em>cd</em> stands for  "change directory". cd switches you into the directory you specify.
+                The <em>cd</em> command take a directory name as an argument and switches into that directory.<br>
+                <br>
+                To move up a directory, we use:<br>
+                <em>$ cd ..</em><br>
+                The argument <em>..</em> stands for the directory above the current working directory.
+
+                </td>
+          </tr>
+        </table>
+        <br>
+        <table>
+          <tr>
+              <th colspan="2">Change Directory II</th>
+          </tr>
+          <tr>
+              <th class="tag">Command</th>
+              <td><em><strong>pwd</strong></em></td>
+          </tr>
+          <tr>
+              <th class="notes">Notes</th>
+              <td>To move across multiple directories with a single command, we can provide <em>cd</em> a relative 
+                path to the directory. The relative path is a forward slash <em>/</em> separated list of all the 
+                directories leading to the goal directory.<br>
+                We can also move up multiple directories using the <em>..</em> argument. To go up two directories
+                 we use:<br>
+                <em>../..</em>
+              </td>
+          </tr>
+        </table>
+        <br>
+        <table>
+          <tr>
+              <th colspan="2">Make Directory</th>
+          </tr>
+          <tr>
+              <th class="tag">Command</th>
+              <td><em><strong>mkdir</strong></em></td>
+          </tr>
+          <tr>
+              <th class="notes">Notes</th>
+              <td>The <em>mkdir</em> command stands for "make directory". It takes in a directory name as an 
+                argument and then creates a new directory in the current working directory.
+              </td>
+          </tr>
+        </table>            
+        <br>
+        <table>
+          <tr>
+              <th colspan="2">Touch</th>
+          </tr>
+          <tr>
+              <th class="tag">Command</th>
+              <td><em><strong>touch</strong></em></td>
+          </tr>
+          <tr>
+              <th class="notes">Notes</th>
+              <td>The <em>touch</em> command creates a new file inside the working directory. It takes in a 
+                filename as an argument and then creates an empty file with that name in the current working
+                 directory.
+                </td>
+          </tr>
+        </table>
+        <br>
+        <table>
+          <tr>
+              <th colspan="2">Helper Commands</th>
+          </tr>
+          <tr>
+              <th class="tag">Commands</th>
+              <td>
+                <ul>
+                    <li><strong>'Tab'</strong> key</li>
+                    <li><strong>'up'</strong> and <strong>'down'</strong> keys</li>
+                    <li><em><strong>clear</strong></em></li>
+                </ul>
+            </td>
+          </tr>
+          <tr>
+              <th class="notes">Notes</th>
+              <td><strong>'Tab'</strong> button can be used to autocomplete your command. When you are typing
+                the name of an exsiting file or directory, you can use <strong>'Tab'</strong> to finish the 
+                rest of the name.<br>
+                <br>
+                The <strong>'up'</strong> and <strong>'down'</strong> arrows can be used to cycle through your
+                previous commands. <strong>'up'</strong> will take  you through your most recent and
+                <strong>'down'</strong> will take you back through to the most recent one.<br>
+                <br>
+                <strong><em>clear</em></strong> is used to clear your terminal which is useful when its full of previous commands and outputs. 
+                
+                </td>
+          </tr>
+        </table>
+        <br>
+        <table>
+          <tr>
+              <th colspan="2">Concatenate</th>
+          </tr>
+          <tr>
+              <th class="tag">Commands</th>
+              <td><em><strong>cat</strong></em>
+            </td>
+          </tr>
+          <tr>
+              <th class="notes">Notes</th>
+              <td><em>cat</em> short for concatenate, prints the contents of the selected text file to the terminal:<br>
+                <em>cat hello_cli.txt</em><br>
+                Prints: Hello Command Line
+                </td>
+          </tr>
+        </table>                                            
+  </section>                    <!--END OF WEB DEV SECTION -->
   <!--  -->
-  <!-- START OF HTML NOTES -->
   <!--  -->
-  <section class="htmlSection">
+  <!--  -->
+  <section class="htmlSection"> <!-- START OF HTML NOTES -->
     <h1>HTML</h1>
     <h3>HTML Tags</h3>  
     <table>
         <tr>
             <th colspan="2">NoteTitle</th>
-            <td></td>
         </tr>
         <tr>
             <th>Tag</th>
@@ -201,7 +367,6 @@
       <table>
         <tr>
             <th colspan="2">NoteTitle</th>
-            <td></td>
         </tr>
         <tr>
             <th>Tag</th>
@@ -224,7 +389,6 @@
       <table>
         <tr>
             <th colspan="2">NoteTitle</th>
-            <td></td>
         </tr>
         <tr>
             <th>Tag</th>
@@ -247,7 +411,6 @@
       <table>
         <tr>
             <th colspan="2">NoteTitle</th>
-            <td></td>
         </tr>
         <tr>
             <th>Tag</th>
@@ -266,16 +429,15 @@
             <td>test</td>
         </tr>
       </table> 
-</section>
+</section>                  <!-- END OF HTML NOTES -->
 <!--  -->
-<!-- START OF CSS NOTES -->
 <!--  -->
-<section class="cssSection">
+<!--  -->
+<section class="cssSection"> <!-- START OF CSS NOTES -->
   <h1>CSS</h1>
     <table>
       <tr>
           <th colspan="2">NoteTitle</th>
-          <td></td>
       </tr>
       <tr>
           <th>Tag</th>
@@ -298,7 +460,6 @@
     <table>
       <tr>
           <th colspan="2">NoteTitle</th>
-          <td></td>
       </tr>
       <tr>
           <th>Tag</th>
@@ -321,7 +482,6 @@
     <table>
       <tr>
           <th colspan="2">NoteTitle</th>
-          <td></td>
       </tr>
       <tr>
           <th>Tag</th>
@@ -344,7 +504,6 @@
     <table>
       <tr>
           <th colspan="2">NoteTitle</th>
-          <td></td>
       </tr>
       <tr>
           <th>Tag</th>
