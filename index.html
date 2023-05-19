@@ -10,7 +10,8 @@
     </title>
 </head>
 <html>
-  <header>
+<body>  
+<header>
     Eddie's Frontend Development Cheatsheet
   </header>
   <nav>
@@ -62,7 +63,7 @@
               <td>test</td>
           </tr>
           <tr>
-              <th>Rules</th>
+              <th>Description</th>
               <td>test</td>
           </tr>
           <tr>
@@ -312,8 +313,8 @@
                 previous commands. <strong>'up'</strong> will take  you through your most recent and
                 <strong>'down'</strong> will take you back through to the most recent one.<br>
                 <br>
-                <strong><em>clear</em></strong> is used to clear your terminal which is useful when its full of previous commands and outputs. 
-                
+                <strong><em>clear</em></strong> is used to clear your terminal which is useful when its full of 
+                previous commands and outputs. 
                 </td>
           </tr>
         </table>
@@ -341,94 +342,419 @@
   <!--  -->
   <section class="htmlSection"> <!-- START OF HTML NOTES -->
     <h1>HTML</h1>
-    <h3>HTML Tags</h3>  
+    <h3>HTML Elements</h3>  
     <table>
         <tr>
-            <th colspan="2">NoteTitle</th>
+            <th colspan="2">HTML Anatomy</th>
         </tr>
         <tr>
-            <th>Tag</th>
-            <td>test</td>
-        </tr>
-        <tr>
-            <th>Rules</th>
-            <td>test</td>
-        </tr>
-        <tr>
-            <th>Syntax</th>
-            <td>test</td>
-        </tr>
-        <tr>
-            <th>Notes</th>
-            <td>test</td>
-        </tr>
+            <td colspan="2">HTML is composed of elements. These elements structure the webpage and its content. 
+                The diagram above displays an HTML paragraph element which is made up of:
+                    <ul>
+                        <li>An opening tag &lt;p&gt; </li>
+                        <li>The content "Hello World!"</li>
+                        <li>A closing tag &lt;/p&gt</li>
+                    </ul>
+                A <em>tag</em> and the <em>content</em> between it is called an HTML element. There are many tags
+                 that we can use to organize and display text and other types of content, like images.
+                    <ul>
+                        <li><strong>HTML element</strong> - a unit of content in an HTML document formed by HTML 
+                            tags and the text or media it contains.</li>
+                        <li><strong>HTML tag</strong> - the element name, surrounded by an opening &lt; and closing
+                             &gt; angle bracket.</li>
+                        <li><strong>Opening tag</strong> - the first HTML tag used to start an HTML element. The tag
+                             type is surrounded by opening and closing angle brackets.
+                        <li><strong>Content</strong> - The information (text or other elements) contained between the
+                             opening and closing tags of an HTML element.</li>
+                        <li><strong>Closing tag</strong> - The second HTML tag used to end an HTML element. Closing 
+                            tags have a forward slash / inside of them, directly after the left angle bracket.</li>
+                    </ul>
+                </td>
       </table>
     <br>
       <table>
         <tr>
-            <th colspan="2">NoteTitle</th>
+            <th colspan="2">Creating an HTML Document</th>
         </tr>
         <tr>
-            <th>Tag</th>
-            <td>test</td>
-        </tr>
-        <tr>
-            <th>Rules</th>
-            <td>test</td>
-        </tr>
-        <tr>
-            <th>Syntax</th>
-            <td>test</td>
-        </tr>
-        <tr>
-            <th>Notes</th>
-            <td>test</td>
+            <td>
+                <ol>
+                    <li>Add the &lt;!DOCTYPE html&gt;</li>
+                    <li>Add opening and closing &lt;html&gt; tags.</li>
+                    <li>Add opening and closing &lt;head&gt; tags.<br>
+                    a. Add &lt;title&gt; to the head.</li>
+                </ol>
+            </td>
         </tr>
       </table>
       <br>
       <table>
         <tr>
-            <th colspan="2">NoteTitle</th>
+            <th colspan="2">Adding HTML Comments</th>
         </tr>
         <tr>
             <th>Tag</th>
-            <td>test</td>
+            <td>Comments</td>
         </tr>
         <tr>
-            <th>Rules</th>
-            <td>test</td>
+            <th>Description</th>
+            <td>The commented out code goes in between the &lt;!-- --&gt;</td>
         </tr>
         <tr>
             <th>Syntax</th>
-            <td>test</td>
+            <td>&lt;!--CODE GOES HERE--&gt;</td>
         </tr>
         <tr>
-            <th>Notes</th>
-            <td>test</td>
         </tr>
       </table>
       <br>
       <table>
         <tr>
-            <th colspan="2">NoteTitle</th>
+            <th colspan="2">Body</th>
         </tr>
         <tr>
             <th>Tag</th>
-            <td>test</td>
+            <td>&lt;body&gt;&lt;/body&gt;</td>
         </tr>
         <tr>
-            <th>Rules</th>
-            <td>test</td>
+            <th>Description</th>
+            <td>One of the key HTML elements used to build a webpage is the body element. Only content inside
+                 the opening and closing body tags can be displayed to the screen.
+            </td>
         </tr>
         <tr>
             <th>Syntax</th>
-            <td>test</td>
+            <td>&lt;body&gt;<br>
+                &nbsp;&nbsp;&lt;p&gt;What's up, doc?&lt;/p&gt;<br>
+                &lt;/body&gt;
+              </td>
+        </tr>
+      </table>
+        <br>
+      <table>
+        <tr>
+            <th colspan="2">HTML Structure</th>
         </tr>
         <tr>
-            <th>Notes</th>
-            <td>test</td>
+            <th>Description</th>
+            <td>HTML is organized as a collection of family tree relationships. We an element is contained 
+                inside another element, it is considered the <em>child</em> of that element. The child element is said
+                 to be nested inside of the <em>parent</em> element.
+            </td>
         </tr>
-      </table> 
+        <tr>
+            <th>Syntax</th>
+            <td>&lt;body&gt;<br>
+                &nbsp;&nbsp;&lt;p&gt;This paragraph is a child of the body&lt;/p&gt;<br>
+                &lt;/body&gt;
+              </td>
+        </tr>
+      </table>
+      <br>
+        <table>
+          <tr>
+              <th colspan="2">Headings</th>
+          </tr>
+          <tr>
+              <th>Tag</th>
+              <td>&lt;h1&gt;&lt;/h1&gt;</td>
+          </tr>
+          <tr>
+              <th>Description</th>
+              <td>There are six different headings or heading elements.
+                The following is the list of heading elements available in HTML.
+                </td>
+          </tr>
+          <tr>
+              <th>Syntax</th>
+              <td>
+                <ol>
+                    <li>&lt;h1&gt;&lt;/h1&gt; - used for main headings. All other smaller headings are used for subheadings</li>
+                    <li>&lt;h2&gt;&lt;/h2&gt;</li>
+                    <li>&lt;h3&gt;&lt;/h3&gt;</li>
+                    <li>&lt;h4&gt;&lt;/h4&gt;</li>
+                    <li>&lt;h5&gt;&lt;/h5&gt;</li>
+                    <li>&lt;h6&gt;&lt;/h6&gt;</li>
+                </ol>
+                
+                &lt;h1&gt;BREAKING NEWS&lt;/h1&gt;
+              </td>
+          </tr>
+          <tr>
+              
+          </tr>
+        </table>
+        <br>
+        <table>
+          <tr>
+              <th colspan="2">Division</th>
+          </tr>
+          <tr>
+              <th>Tag</th>
+              <td>&lt;div&gt;&lt;/div&gt;</td>
+          </tr>
+          <tr>
+              <th>Description</th>
+              <td><em>div</em> is short for "division" or a container that divides the page into sections. These sections are 
+                very useful for grouping elements in your HTML together.<br>
+                <em>div</em>s don't inherently have a visual representation, but they are very useful when we want to apply 
+                custom styles to our HTML elements. <em>&lt;div&gt;</em>s allow us to group HTML elements to apply the same 
+                styles for all HTML elements inside. We can also style the <em>&lt;div&gt;</em> element as a whole.
+
+            </td>
+          </tr>
+          <tr>
+              <th>Syntax</th>
+              <td>
+                &lt;body&gt;<br>
+                &nbsp;&lt;div&gt;<br>
+                &nbsp;&nbsp;&lt;h1&gt;Why use divs?&lt;/h1&gt;<br>
+                &nbsp;&nbsp;&lt;p&gt;Great for grouping elements!&lt;/p&gt;<br>
+                &nbsp;&lt;/div&gt;<br>
+                &lt;/body&gt;</td>
+          </tr>
+        </table>
+        <br>
+        <table>
+          <tr>
+              <th colspan="2">Attributes</th>
+          </tr>
+          <tr>
+              <th>Description</th>
+              <td>Attributes are content added to the opening tag of an element and can be used in several ways, from providing
+                 information to changing styling. Attributes are made up of the following two parts:
+                <ul>
+                    <li>The <em>name</em> of the attribute</li> 
+                    <li>The <em>value</em> of the attribute</li>
+                </ul>
+            </td>
+          </tr>
+          <tr>
+              <th>Syntax</th>
+              <td>&lt;div id="intro"&gt;<br>
+                &nbsp;&lt;h1&gt;Introduction&lt;/h1&gt;<br>
+                &lt;/div&gt;
+              </td>
+          </tr>
+        </table>
+        <br>
+        <table>
+          <tr>
+              <th colspan="2">Displaying Text</th>
+          </tr>
+          <tr>
+              <th>Tag</th>
+              <td>
+                &lt;p&gt;&lt;/p&gt;<br>
+                &lt;span&gt;&lt;/span&gt;
+              </td>
+          </tr>
+          <tr>
+              <th>Description</th>
+              <td>
+                <ul>
+                    <li><em>&lt;p&gt;</em> - paragraphs contain a block of plain text</li>
+                    <li><em>&lt;span&gt;</em> - spans contaun short pieces of text or other HTML. They are used to 
+                    separate small pieces of content that are on the same line as other content.</li>
+                </ul>
+                The <em>&lt;span&gt;</em> element separates "Self-driving cars" from the rest of the paragraph. Its best to use a 
+                <em>&lt;span&gt;</em> element when you want to target a specific piece of content that is <em>inline</em> or on the same line 
+                    as other text. If you want to divide your content into <em>blocks</em>, it's better to use a <em>&lt;div&gt;</em>.
+
+            </td>
+          </tr>
+          <tr>
+              <th>Syntax</th>
+              <td>
+                &lt;div&gt;<br>
+                &nbsp;&nbsp;&lt;h1&gt;Technology&lt;/h1&gt;<br>
+                &lt;/div&gt;<br>
+                &lt;div&gt;<br>
+                &nbsp;&nbsp; &lt;p&gt;&lt;span&gt;Self-driving cars&lt;/span&gt; are anticipated to replace up to 2 million jobs over the next
+                 two decades.&lt;/p&gt;<br>
+                &lt;/div&gt;
+              </td>
+          </tr>
+        </table>
+        <br>
+        <table>
+          <tr>
+              <th colspan="2">Styling Text</th>
+          </tr>
+          <tr>
+              <th>Tag</th>
+              <td>&lt;em&gt;&lt;/em&gt;<br>
+                  &lt;strong&gt;&lt;/strong&gt;  
+            </td>
+          </tr>
+          <tr>
+              <th>Description</th>
+              <td>
+                The <em>&lt;em&gt;</em> tag emphasizes text while the <em>&lt;strong&gt;</em> tag highlights important text.
+                    <ul>
+                        <li><em>&lt;em&gt;</em> tag will generally render as <em>emphasis</em></li>
+                        <li>The <em>&lt;strong&gt;</em> tag will generally render as <strong>bold</strong> emphasis.</li>
+                    </ul> 
+              </td>
+          </tr>
+          <tr>
+              <th>Syntax</th>
+              <td>
+                &lt;p>&lt;strong&gt;The Nile River&lt;/strong&gt; is the &lt;em&gt;longest&lt;/em&gt; river in the world, measuring over 
+                6,850 kilometers long (approximately 4,260 miles).&lt;/p&gt;
+                
+              </td>
+          </tr>
+          <tr>
+              <th>Notes</th>
+              <td>test</td>
+          </tr>
+        </table>
+        <br>
+        <table>
+          <tr>
+              <th colspan="2">Line Breaks</th>
+          </tr>
+          <tr>
+              <th>Tag</th>
+              <td>&lt;br&gt;</td>
+          </tr>
+          <tr>
+              <th>Description</th>
+              <td>The spacing between code in an HTML file doesn't affect the positioning of elements in the browser. You can use HTML's
+                line break element <em>&lt;br&gt;</em><br>
+                <br>
+                The line break element is only composed of a starting tag. It can be used anywhere within HTML code and a line break 
+                will appear in the browser.
+                </td>
+          </tr>
+          <tr>
+              <th>Syntax</th>
+              <td>&lt;p&gt;The Nile River is the longest river &lt;br&gt; in the world, measuring over 6,850 &lt;br&gt; kilometers long 
+                (approximately 4,260 &lt;br&gt; miles).&lt;/p&gt;
+              </td>
+          </tr>
+        </table>
+        <br>
+        <table>
+          <tr>
+              <th colspan="2">Unordered Lists</th>
+          </tr>
+          <tr>
+              <th>Tag</th>
+              <td>&lt;ul&gt;&lt;/ul&gt;</td>
+          </tr>
+          <tr>
+              <th>Description</th>
+              <td>An <em>unordered list</em> tag &lt;ul&gt; is used to create a list of items in no particular order. An unordered
+                 list outlines individual <em>list items</em> with a bullet point.<br> 
+                <br>
+                The &lt;ul&gt; element should not hold raw text and won't automatically format raw text into an unordered list of 
+                items. Individual list items must be added to the unordered list using the &lt;li&gt; tag. The &lt;li&gt; or list 
+                item is used to describe an item in a list</td>
+          </tr>
+          <tr>
+              <th>Syntax</th>
+              <td>&lt;ul&gt;<br>
+                &lt;li&gt;Limes&lt;/li&gt;<br>
+                &lt;li&gt;Tortillas&lt;/li&gt;<br>
+                &lt;li&gt;Chicken&lt;/li&gt;<br>
+                &lt;/ul&gt;
+              </td>
+          </tr>
+        </table>
+        <br>
+        <table>
+          <tr>
+              <th colspan="2">Ordered Lists</th>
+          </tr>
+          <tr>
+              <th>Tag</th>
+              <td>&lt;ol&gt;&lt;/ol&gt;</td>
+          </tr>
+          <tr>
+              <th>Description</th>
+              <td><em>Ordered lists</em> <em>&lt;ol&gt;</em> are like unordered lists except that each list item is numbered. You can create the
+                 ordered list with the <em>&lt;ol&gt;</em> tag and then add individual list items to the list using <em>&lt;li&gt;</em> tags.
+            </td>
+          </tr>
+          <tr>
+              <th>Syntax</th>
+              <td>&lt;ol&gt;<br>
+                &nbsp;&lt;li&gt;Preheat the oven to 350 degrees.&lt;/li&gt;<br>
+                &nbsp;&lt;li&gt;Mix whole wheat flour, baking soda, and salt.&lt;/li&gt;<br>
+                &nbsp;&lt;li&gt;Cream the butter, sugar in separate bowl.&lt;/li&gt;<br>
+                &nbsp;&lt;li&gt;Add eggs and vanilla extract to bowl.&lt;/li&gt;<br>
+                &lt;/ol&gt;
+              </td>
+          </tr>
+        </table>
+        <br>
+        <table>
+          <tr>
+              <th colspan="2">Images</th>
+          </tr>
+          <tr>
+              <th>Tag</th>
+              <td>&lt;img/&gt;</td>
+          </tr>
+          <tr>
+              <th>Description</th>
+              <td>test</td>
+          </tr>
+          <tr>
+              <th>Syntax</th>
+              <td>test</td>
+          </tr>
+          <tr>
+              <th>Notes</th>
+              <td>test</td>
+          </tr>
+        </table>
+        <br>
+        <table>
+          <tr>
+              <th colspan="2">Image Alts</th>
+          </tr>
+          <tr>
+              <th>Tag</th>
+              <td>test</td>
+          </tr>
+          <tr>
+              <th>Description</th>
+              <td>test</td>
+          </tr>
+          <tr>
+              <th>Syntax</th>
+              <td>test</td>
+          </tr>
+          <tr>
+              <th>Notes</th>
+              <td>test</td>
+          </tr>
+        </table>
+        <br>
+        <table>
+          <tr>
+              <th colspan="2">Videos</th>
+          </tr>
+          <tr>
+              <th>Tag</th>
+              <td>test</td>
+          </tr>
+          <tr>
+              <th>Description</th>
+              <td>test</td>
+          </tr>
+          <tr>
+              <th>Syntax</th>
+              <td>test</td>
+          </tr>
+          <tr>
+              <th>Notes</th>
+              <td>test</td>
+          </tr>
+        </table> 
 </section>                  <!-- END OF HTML NOTES -->
 <!--  -->
 <!--  -->
@@ -444,7 +770,7 @@
           <td>test</td>
       </tr>
       <tr>
-          <th>Rules</th>
+          <th>Description</th>
           <td>test</td>
       </tr>
       <tr>
@@ -466,7 +792,7 @@
           <td>test</td>
       </tr>
       <tr>
-          <th>Rules</th>
+          <th>Description</th>
           <td>test</td>
       </tr>
       <tr>
@@ -488,7 +814,7 @@
           <td>test</td>
       </tr>
       <tr>
-          <th>Rules</th>
+          <th>Description</th>
           <td>test</td>
       </tr>
       <tr>
@@ -510,7 +836,7 @@
           <td>test</td>
       </tr>
       <tr>
-          <th>Rules</th>
+          <th>Description</th>
           <td>test</td>
       </tr>
       <tr>
