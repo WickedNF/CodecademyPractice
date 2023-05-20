@@ -700,15 +700,18 @@
           </tr>
           <tr>
               <th>Description</th>
-              <td>test</td>
+              <td>The <em>&lt;img&gt; </em>tag allows you to add an image to a web page.
+                 The <em>&lt;img&gt; </em>tag is a self-closing tag. Note the end of the
+                  <em>&lt;img&gt;</em> tag has a forward slash.<br>
+                  The <em>&lt;img&gt;</em> tag has a required <em>attribute</em> called <em>
+                  src</em>. The <em>src</em> attribute must be set to the image's <em>source </em>
+                  or the location of the image. The value of <em>src </em>must be the <em>uniform 
+                  resource locator </em>(URL) of the image.
+                </td>
           </tr>
           <tr>
               <th>Syntax</th>
-              <td>test</td>
-          </tr>
-          <tr>
-              <th>Notes</th>
-              <td>test</td>
+              <td>&lt;img&gt;</td>
           </tr>
         </table>
         <br>
@@ -717,20 +720,26 @@
               <th colspan="2">Image Alts</th>
           </tr>
           <tr>
-              <th>Tag</th>
-              <td>test</td>
-          </tr>
-          <tr>
               <th>Description</th>
-              <td>test</td>
+              <td>The <em>alt</em> attribute, which means alternative text, brings meaning to the images
+                 on our sites. The <em>alt</em> attribute can be added to the image tag just like 
+                 the <em>src</em> attribute.<br>
+                
+                </td>
           </tr>
           <tr>
               <th>Syntax</th>
-              <td>test</td>
+              <td>&lt;img src="#" alt="A field of yellow sunflowers" /&gt;</td>
           </tr>
           <tr>
               <th>Notes</th>
-              <td>test</td>
+              <td>
+            <ul>
+                <li>If an image fails to load on a web page, a user can mouse over the area originally intended for the image and read a brief description of the image. This is made possible by the description you provide in the <em>alt</em> attribute.</li>
+                <li>Visually impaired users often browse the web with the aid of screen reading software. When you include the <em>alt </em>attribute, the screen reading software can read the image's description out loud to the user.</li>
+                <li>The <em>alt</em> attribute also play a role in SEO because search engines cannot "see" the images on websites as they crawl the internet. Having descriptive <em>alt</em> attributes can improve the ranking of your site.</li>
+            </ul>
+            </td>
           </tr>
         </table>
         <br>
@@ -740,19 +749,18 @@
           </tr>
           <tr>
               <th>Tag</th>
-              <td>test</td>
+              <td>&lt;video/&gt;</td>
           </tr>
           <tr>
               <th>Description</th>
-              <td>test</td>
+              <td>
+                Like the <em>&lt;img&gt;</em> element, the <em>&lt;video&gt;</em> element requires a <em>src</em> attribute with a link to the video source. Unlike the <em>&lt;img&gt; </em>element however, the <em>&lt;video&gt; </em>element requires an opening and closing tag.<br>
+                After the <em>src</em> attribute, the <em>width and height</em> attributes are used to set the size of the video displayed in the browser. The <em>controls</em> attribute instructs the browser to include basic video controls such as pause/play
+            </td>
           </tr>
           <tr>
               <th>Syntax</th>
-              <td>test</td>
-          </tr>
-          <tr>
-              <th>Notes</th>
-              <td>test</td>
+              <td>&lt;video src="myVideo.mp4" width="320" height="240" controls&gt;Video not supported&lt;/video&gt;</td>
           </tr>
         </table> 
 </section>                  <!-- END OF HTML NOTES -->
@@ -761,10 +769,26 @@
 <!--  -->
 <section class="cssSection"> <!-- START OF CSS NOTES -->
   <h1>CSS</h1>
+  <h3>CSS Basics</h3>
     <table>
       <tr>
-          <th colspan="2">NoteTitle</th>
+          <th colspan="2"><h4>CSS Anatomy</h4></th>
       </tr>
+      <tr>
+        <td>
+            Two syntaxes for writing CSS<br>
+            <ol>
+                <li>CSS ruleset</li>
+                <li>CSS inline style</li>
+            </ol>
+            Both methods contain common features in the anatomy.<br>
+            <a href="https://www.codecademy.com/resources/docs/css/anatomy?page_req=catalog" target="_blank">https://www.codecademy.com/resources/docs/css/anatomy?page_req=catalog</a><br>
+            Both syntaxes contain declarations. Declarations are the core of CSS. They apply a style to the selected element.
+        </td>
+      </tr>
+      <tr>
+        <th colspan="2">CSS ruleset terms</th>
+    </tr>
       <tr>
           <th>Tag</th>
           <td>test</td>
